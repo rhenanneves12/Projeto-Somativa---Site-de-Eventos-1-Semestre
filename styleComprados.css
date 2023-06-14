@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(https://images4.alphacoders.com/592/592367.jpg);
+    background-size: cover;
+
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(87, 11, 131);
+    height: 80px;
+
+}
+
+.navbar img {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.navbar-center {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* Estilos para os links na navbar */
+.navbar-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para o menu suspenso */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    padding: 10px;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: #fbfbfb;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    /*background: linear-gradient(to left, #280669, #000000);*/
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 0px 10px rgb(162, 0, 255, 0.247);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s;
+    text-shadow: 3px 1px 4px#6f00ff;
+
+}
+
+footer a:hover {
+    color: #8982f1;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.5s;
+}
+
+.social-icons a:hover {
+    color: #8982f1;
+}
+
+.hero-section {
+    display: flex;
+    min-height: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card container {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+
+}
+
+.card {
+    position: relative;
+    list-style: none;
+    width: 220px;
+    transition: .3s ease;
+    margin: 30px;
+    width: 300px;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px rgb(87, 11, 131);
+    border-radius: 20px;
+}
+
+.card:before {
+    display: block;
+    padding: 110%;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background-size: 350px;
+    background-position: center;
+    filter: brightness(.9) saturate(1) contrast(1);
+    transform-origin: bottom;
+    transform: scale(1) translateZ(0);
+    transition: .3 ease;
+}
+
+.card:hover .card-background {
+    transform: scale(1.15) translateZ(0);
+    background-size: 260px;
+}
+
+.card-container:hover .card:not(:hover) {
+    transform: scale(.9);
+}
+
+.card-container:hover>.card:not(:hover) .card-background,
+.card-container:hover>.card:not(:hover) .card-category {
+    filter: brightness(.9) saturate(3) contrast(1.2) blur(20px);
+}
+
+.content {
+    top: 50%;
+    left: 0;
+    padding: 25px;
+    position: absolute;
+}
+
+.card-category {
+    color: #f7f7f7;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 2px 2px 20px rgb(141, 0, 134);
+
+}
+
+.card-heading {
+    color: #fff;
+    font-size: 25px;
+    line-height: 1;
+    text-shadow: 2px 2px 20px rgb(141, 0, 134);
+    font-family: 'Staatliches', cursive;
+}

@@ -1,0 +1,220 @@
+body {
+  background-image: url(https://images4.alphacoders.com/592/592367.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(162, 0, 255, 0.247);
+  height: 80px;
+}
+
+
+.navbar img {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+.navbar-center {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* Estilos para os links na navbar */
+.navbar-link {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.navbar-link:hover {
+  color: #8982f1;
+}
+
+/* Estilos para o menu suspenso */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  padding: 10px;
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #fbfbfb;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.dropdown-content a:hover {
+  color: #8982f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+footer {
+  /*background: linear-gradient(to left, #280669, #000000);*/
+  background: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 10px 0px 10px rgb(162, 0, 255, 0.247);
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+
+}
+
+footer a:hover {
+  color: #8982f1;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.5s;
+}
+
+.social-icons a:hover {
+  color: #8982f1;
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5%;
+
+}
+
+.card {
+  background-color: rgb(54, 1, 54);
+  color: white;
+  width: 18rem;
+  box-shadow: 10px 0px 10px rgb(162, 0, 255, 0.247);
+}
+
+.card-footer {
+  background-color: rgb(26, 2, 97);
+  border-top: none;
+  
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body h4 {
+  text-align: center;
+}
+.card-body p {
+  text-align: center;
+}
+
+.card-footer small {
+  color: rgb(255, 255, 255);
+}
+
+#baixo {
+  font-size: 18px;
+  
+}
+
+#timer {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.button-saiba-mais {
+  background-color: #8E44AD;
+  color: white;
+}
+
+.button-comprar {
+  background-color: #6C3483;
+  color: white;
+}
+
+.button:hover {
+  background-color: #D7BDE2;
+  color: black;
+}
+h1{
+  color: white;
+  box-shadow: 5px 5px 5px rgb(87, 11, 131);
+  background-color: #8982f1;
+  width: 100%;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  
+}
+.fan img{
+width: 50%;
+margin: auto;
+display: block;
+box-shadow: 5px 5px 5px rgb(87, 11, 131);
+}

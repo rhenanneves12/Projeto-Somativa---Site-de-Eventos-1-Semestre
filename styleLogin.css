@@ -1,0 +1,169 @@
+/* Estilos básicos para a navbar */
+body {
+  background-image: url(https://images4.alphacoders.com/592/592367.jpg);
+  overflow-x: hidden;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(162, 0, 255, 0.247);
+  height: 80px;
+}
+
+
+.navbar img {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+.navbar-center {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+/* Estilos para os links na navbar */
+.navbar-link {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 10px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.navbar-link:hover {
+  color: #8982f1;
+}
+
+/* Estilos para o menu suspenso */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  padding: 10px;
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+  color: #fbfbfb;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', sans-serif;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.dropdown-content a:hover {
+  color: #8982f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.form {
+  margin-left: 11%;
+  margin-top: 10%;
+  border-radius: 4%;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9100d753-02ac-4ed8-ac98-5e45d6deecad/derovqm-22d44156-0ff7-40ca-be3d-a9b3845fcc84.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzkxMDBkNzUzLTAyYWMtNGVkOC1hYzk4LTVlNDVkNmRlZWNhZFwvZGVyb3ZxbS0yMmQ0NDE1Ni0wZmY3LTQwY2EtYmUzZC1hOWIzODQ1ZmNjODQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Je2BeQ9NjwnKs6N8TmZIlWKmUHHhCtcH6g_TWqFyFVM);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-floating {
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.form h1 {
+  color: white;
+  font-family: 'Bitter', serif;
+}
+
+.form button {
+  color: rgb(3, 3, 3);
+  font-family: 'Bitter', serif;
+  background-color: rgb(255, 174, 0);
+}
+
+.form .lembrarsenha {
+  color: rgb(255, 255, 255);
+  font-family: 'Bitter', serif;
+}
+.cadastro a{
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  /*background: linear-gradient(to left, #280669, #000000);*/
+  background: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 10px 0px 10px rgb(162, 0, 255, 0.247);
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.5s;
+  text-shadow: 3px 1px 4px#6f00ff;
+
+}
+
+footer a:hover {
+  color: #8982f1;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.5s;
+}
+
+.social-icons a:hover {
+  color: #8982f1;
+}

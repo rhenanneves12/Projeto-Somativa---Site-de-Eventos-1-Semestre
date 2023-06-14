@@ -1,0 +1,218 @@
+/* Estilos básicos para a navbar */
+body {
+    background-image: url(https://images4.alphacoders.com/592/592367.jpg);
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgba(162, 0, 255, 0.247);
+    height: 80px;
+}
+
+
+.navbar img {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.navbar-center {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+/* Estilos para os links na navbar */
+.navbar-link {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.5s;
+    text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.navbar-link:hover {
+    color: #8982f1;
+}
+
+/* Estilos para o menu suspenso */
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    padding: 10px;
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    display: block;
+    text-decoration: none;
+    color: #fbfbfb;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.5s;
+    text-shadow: 3px 1px 4px#6f00ff;
+}
+
+.dropdown-content a:hover {
+    color: #8982f1;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+form {
+    background-size: 100%;
+    background-image: url(https://cdna.artstation.com/p/assets/images/images/060/460/880/original/pixel-jeff-chill-mario-2023-2.gif?1678633376); 
+    margin-left: 11%;
+    margin-top: 5%;
+    border-radius: 2%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-row .form-group {
+    flex-basis: 50%;
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: 'Bitter', serif;
+    text-align: start;
+}
+
+.form-row .form-group.full-width {
+    flex-basis: 100%;
+}
+
+.form-group {
+    color: white;
+    font-family: 'Bitter', serif;
+    text-align: center;
+}
+
+.form-check-label {
+    color: #ffffff;
+}
+
+#botao {
+    background-color: rgb(255, 174, 0);
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+}
+
+.accordion .accordion-header {
+
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.accordion .accordion-button {
+    margin-top: 2%;
+    background-color: transparent;
+    border: none;
+    color: rgb(255, 174, 0);
+    text-decoration: none;
+    padding: 0;
+}
+
+.accordion .accordion-button:focus {
+    outline: none;
+}
+
+.accordion .accordion-button::after {
+    content: none;
+}
+
+.accordion .accordion-collapse {
+    border: none;
+    padding: 0;
+}
+
+.accordion .accordion-body {
+
+    padding: 0;
+    color: #ffffff;
+    margin: 10px;
+    text-align: center;
+}
+
+
+footer {
+    /*background: linear-gradient(to left, #280669, #000000);*/
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 10px 0px 10px rgb(162, 0, 255, 0.247);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.5s;
+    text-shadow: 3px 1px 4px#6f00ff;
+
+}
+
+footer a:hover {
+    color: #8982f1;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.5s;
+}
+
+.social-icons a:hover {
+    color: #8982f1;
+}
